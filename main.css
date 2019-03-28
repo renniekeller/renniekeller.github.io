@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(252, 246, 240);
+    border: rgba(153, 201, 201, 0.4) solid 4px; 
+    border-radius: 60px;
+}
+
+.container{
+    margin: auto 0;
+
+}
+
+h1{
+    font-family: Lora, 'serif';
+    text-align: center;
+    font-size: 40px;
+    color: rgb(189, 116, 189);
+    padding-top: 40px;
+}
+
+h2{
+    font-family: Lora, 'serif';
+    font-size: 30px;
+    color: rgb(189, 116, 189);
+    padding-top: 20px;
+    text-align: center;
+}
+
+p{
+    font-family: Lora, 'serif';
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 90px;
+    margin: auto 0;
+    color:  rgb(124, 65, 38);
+    font-size: 12;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+li{
+    font-family: Lora, 'serif';
+    padding-left: 20px;
+    color: rgb(124, 65, 38);
+    text-align: justify ;
+}
+
+.button{
+    padding: 40px;
+}
+
+button{
+    background-color:rgba(189, 116, 189, 0.6);
+    color: rgb(192, 252, 252);
+    border-radius: 30px;
+    font-family: Lora, 'serif';
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    border: none;
+}
+
+.aboutme {
+    grid-area: a;
+    border-radius: 30px;
+    background-color: rgba(153, 201, 201, 0.4);
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    min-width: 300px;
+}
+.contact {
+    grid-area: c;
+    border-radius: 30px;
+    background-color:rgba(153, 201, 201, 0.8);
+    margin: 40px;
+    min-width: 300px;
+    max-width: 1050px;
+}
+.picture {
+    grid-area: p;
+    border-radius: 30px;
+    min-width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+img{
+    margin-top: 40px;
+    margin-right: 40px;
+    border: rgb(189, 116, 189) solid 20px;
+    border-radius: 40px;
+    width: 250px;
+    height: 200px;
+}
+
+/*where we are setting the size for mobile devices*/
+
+@media screen and (min-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: (18%, auto, 7%);
+        grid-template-areas: 
+        "p"
+        "a"
+        "c";
+}
+
+/* when the screen is 750px or larger, do this */
+
+    .container{
+        padding-left: 80px;
+        padding-right: 80px;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: 60% 1fr;
+        grid-template-areas: 
+        "a a a a a p p p p"
+        "c c c c c c c c c";
+    }
+
+}
