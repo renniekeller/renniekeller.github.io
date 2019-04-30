@@ -127,6 +127,7 @@
         background-color:rgba(153, 201, 201, 0.6);
         /*margin: 40px;*/
         min-width: 300px;
+        width: 100%;
     }
 
     .picture {
@@ -136,6 +137,7 @@
         border-radius: 30px;
         min-width: 300px;
         margin-right: 300px;
+        width: 100%;
     }
 
 /* SMALL ELEMENTS are specified in this 2nd secton */
