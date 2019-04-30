@@ -10,3 +10,5 @@ My handcoded HTML and CSS portfolio site "About Me" page first draft
   The final section gives a basic summary of my professional life, describing myself as an "Artist. Designer. Educator." as well as one of my self portraits, a link to my resume, and contact information.
   
   Within the content of my website (and the resume page) is where I exhibit my abilities in art and education, but I feel as though the website itself exists as an exemplary display of my design skills and coding abilities.
+  
+  Although I consider this my own unique website overall, I must give credit and thanks to both Professor Lara Henderson and Scrimba for giving me helpful samples of starter code for the inner architecture of my website.
