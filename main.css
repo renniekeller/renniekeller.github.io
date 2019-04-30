@@ -55,7 +55,7 @@
             grid-template-rows: 60% 1fr 1fr;
             grid-template-areas: 
             "p p p . . a a a a"
-            "c c c c c c c c c"
+            "p p p . . c c c c"
             "m m m m m m m m m";
         }
     }
