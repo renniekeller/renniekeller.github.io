@@ -54,7 +54,7 @@
             grid-template-columns: repeat(9, 1fr);
             grid-template-rows: 60% 1fr 1fr;
             grid-template-areas: 
-            "p p p . a a a a a"
+            "p p p . . a a a a"
             "c c c c c c c c c"
             "m m m m m m m m m";
         }
