@@ -118,7 +118,6 @@
         margin-bottom: 40px;
         min-width: 300px;
         padding-bottom: 40px;
-        padding-right: 10px;
         width: 100%;
     }
     .contact {
@@ -136,6 +135,7 @@
         grid-area: p;
         border-radius: 30px;
         min-width: 300px;
+        padding-right: 30px;
     }
 
 /* SMALL ELEMENTS are specified in this 2nd secton */
