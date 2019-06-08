@@ -296,7 +296,7 @@
     .bigsvg{
         padding-top: 40px;
         z-index: 5;
-        max-width: 800px;
+        max-width: 400px;
         text-align: center;
         margin: auto;
     }
