@@ -150,14 +150,14 @@
         text-align: center;
         font-size: 35px;
         color: grey;
-        padding-top: 40px;
+        padding-top: 20px;
     }
 
     h2{
         font-family: Lora, 'serif';
         font-size: 30px;
         color: grey;
-        padding-top: 20px;
+        padding-top: 10px;
         text-align: center;
     }
 
@@ -166,7 +166,7 @@
         font-family: Lora, 'serif';
         padding-left: 40px;
         padding-right: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
         margin: auto 0;
         color: gray;
         font-size: 16px;
@@ -276,7 +276,7 @@
 
     svg{
         display: block;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         padding-top: 40px;
         fill:rgba(153, 201, 201, 0.5);
         border-radius: 40px;
@@ -309,4 +309,17 @@
         a:visited {
             color:rgb(252, 246, 240);
             text-decoration: none;
+        }
+
+        /*iframe*/
+
+        iframe{
+            align-content: center;
+            margin: 10px;
+            width: 75%;
+            height: 500px;
+        }
+
+        .lessons{
+            text-align: center;
         }
