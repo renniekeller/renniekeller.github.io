@@ -260,7 +260,7 @@
     img{
         margin-top: 40px;
         border-radius: 40px;
-        border: rgb(252, 246, 240)solid 10px;
+        /* border: rgb(252, 246, 240)solid 10px; */
     }
 
     img:hover{
