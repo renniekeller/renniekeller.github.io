@@ -155,7 +155,7 @@
 
     h2{
         font-family: Lora, 'serif';
-        font-size: 30px;
+        font-size: 20px;
         color: grey;
         padding-top: 10px;
         text-align: center;
@@ -260,7 +260,6 @@
     img{
         margin-top: 40px;
         border-radius: 40px;
-        /* border: rgb(252, 246, 240)solid 10px; */
     }
 
     img:hover{
