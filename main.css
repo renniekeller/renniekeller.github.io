@@ -6,6 +6,7 @@
     body{
         background-color: rgb(252, 246, 240);
         font-family: Lora, 'serif';
+        overflow-x: hidden;
     }
 
     /* div which is a CONTAINER for other divs */
