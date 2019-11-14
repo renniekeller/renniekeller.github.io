@@ -80,7 +80,7 @@ td:hover{
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: 20% auto auto 20%;
         grid-template-areas:
-         "h h h h h h h h h b b b"
+         "h h h h h h h h h h h b"
          "s s s s m m m m m m m m"
          "s s s s m m m m m m m m"
          "s s s s m m m m m m m m"
