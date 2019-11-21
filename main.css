@@ -6,7 +6,8 @@
     body{
         background-color: rgb(252, 246, 240);
         font-family: Lora, 'serif';
-        margin: auto 0;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         height: 100%;
         overflow-x: hidden;
@@ -16,7 +17,8 @@
     /* div which is a CONTAINER for other divs */
 
     .container{
-        margin: auto 0;
+        margin-left: auto;
+        margin-right: auto;
         min-width: 200px;
         text-align: center;
         max-width: 3000px;
