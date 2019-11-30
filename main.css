@@ -308,7 +308,7 @@
         max-width: 400px;
         text-align: center;
         margin: auto;
-        filter: drop-shaddow(2px 2px 2px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
     }
 
     /* LINKS */
