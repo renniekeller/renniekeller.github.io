@@ -17,8 +17,7 @@
     /* div which is a CONTAINER for other divs */
 
     .container{
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto 0;
         min-width: 200px;
         text-align: center;
         max-width: 3000px;
@@ -28,8 +27,6 @@
 
     div{
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     /* where we are setting the SIZE FOR MOBILE devices */
@@ -37,7 +34,6 @@
     @media screen and (min-width: 800px) {
         .container {
             display: grid;
-            text-align: center;
             grid-template-columns: 1fr;
             grid-auto-rows: (18%, auto, auto, 7%);
             grid-template-areas: 
@@ -332,8 +328,4 @@
 
         .lessons{
             text-align: center;
-        }
-
-        button{
-            display: inline;
         }
