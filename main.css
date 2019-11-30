@@ -217,6 +217,7 @@
     /* BUTTONS */
 
     .nav{
+        display: inline;
         text-align: center;
         color: rgb(252, 246, 240);
         border-radius: 30px;
