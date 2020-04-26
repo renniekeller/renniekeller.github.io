@@ -50,11 +50,6 @@ td{
     margin: auto;
 }
 
-td:hover{
-    background-color: gray;
-    color: rgb(252, 246, 240);;
-}
-
 /*where we are setting the size for mobile devices*/
 .wrapper {
     display: grid;
