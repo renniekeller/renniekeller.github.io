@@ -12,15 +12,12 @@
         height: 100%;
         text-align: center;
         overflow-x: hidden;
-        -webkit-animation: fadein 2s ease-in;
-        @keyframes fadeIn {
-        0% {opacity:0;}
-        100% {opacity:2;}
     }
 
     div{
         background-color: rgb(228, 216, 204,);
     }
+    
 
     /* div which is a CONTAINER for other divs */
 
@@ -344,3 +341,36 @@
         button{
             display: inline;
         }
+
+.fade-in {
+    animation: fadeIn ease 20s;
+    -webkit-animation: fadeIn ease 20s;
+    -moz-animation: fadeIn ease 20s;
+    -o-animation: fadeIn ease 20s;
+    -ms-animation: fadeIn ease 20s;
+    }
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
