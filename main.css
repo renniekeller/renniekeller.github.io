@@ -12,6 +12,11 @@
         height: 100%;
         text-align: center;
         overflow-x: hidden;
+        -webkit-animation: fadein 2s ease-in;
+    }
+
+    div{
+        background-color: rgb(228, 216, 204,);
     }
 
     /* div which is a CONTAINER for other divs */
@@ -26,10 +31,11 @@
     
     /* individual DIVS within container */
 
-    div{
+    .homepage div{
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        background-color:  rgba(252, 246, 240, 0.8);
     }
 
     /* where we are setting the SIZE FOR MOBILE devices */
@@ -141,6 +147,12 @@
         width: 100%;
     }
 
+    .homepage {
+        background-image: url(assets/biggerwave.JPG);
+        background-size: cover;
+        background-position: center;
+    }
+
 /* SMALL ELEMENTS are specified in this 2nd secton */
 
     /* TEXT */
@@ -217,13 +229,10 @@
 
     .nav{
         text-align: center;
-        color: rgb(252, 246, 240);
-        border-radius: 30px;
+        color: rgba(252, 246, 240, 0.8);
         font-family: Lora, 'serif';
         font-size: 20px;
         border: none; 
-        margin-left: auto;
-        margin-right: auto;
     }
 
     button:hover{
@@ -253,8 +262,8 @@
     #menu{
         grid-area: m;
         text-align: center;
-        margin: 30px;
         padding: 30px;
+        margin-bottom: 10%;
     }
 
     /* IMAGES */
@@ -280,7 +289,7 @@
     svg{
         display: block;
         padding-bottom: 20px;
-        padding-top: 40px;
+        padding-top: 10%;
         fill:rgb(153, 201, 201);
         margin: 0 auto;
     }
@@ -297,11 +306,12 @@
     }
 
     .bigsvg > svg{
-        padding-top: 40px;
+        padding: 5%;
         z-index: 5;
         max-width: 400px;
         text-align: center;
         margin: auto;
+        margin-top: 5%;
         filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
     }
 
