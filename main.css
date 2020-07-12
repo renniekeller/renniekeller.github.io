@@ -49,10 +49,6 @@
             "m";
         }
 
-        img{
-           /* filter: grayscale(1);*/
-        }
-
         .smallsvg > svg{
             transform: scale(2);
             padding-top: 100px;
@@ -270,7 +266,6 @@
 
     img:hover{
         transform: scale(1.3);
-        /*filter: grayscale(0); */
         z-index: 1;
         opacity: 1;
         box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7);
