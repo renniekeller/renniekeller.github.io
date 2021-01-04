@@ -1,4 +1,4 @@
-
+t
 /*LARGE ELEMENTS, such as grid formatting, are specified in this 1st section */
 
     /* BODY formatting for all webpages */
@@ -307,6 +307,7 @@
 
     .smallsvg > svg{
         max-height: 80px;
+        text-align: left;
     }
 
    .smallsvg > svg:hover{
