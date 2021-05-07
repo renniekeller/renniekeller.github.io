@@ -96,6 +96,18 @@ button{
     border: none;
 }
 
+.homebuttonrennie{
+  font-size: 50pt;
+
+}
+
+.homebuttonrennie:hover{
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+}
+
+
 a:link,
 a:visited {
     color:rgb(252, 246, 240);
