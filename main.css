@@ -35,7 +35,7 @@ t
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        background-color:  rgba(252, 246, 240, 0.8);
+        background-color:  rgba(252, 246, 240, 0.7);
     }
 
     /* where we are setting the SIZE FOR MOBILE devices */
@@ -104,22 +104,9 @@ t
         grid-auto-flow: dense;
     }
 
-    .vertical {
-        grid-row: span 3;
-    }
-
     .big {
-        grid-column: span 2;
         grid-row: span 3;
-    }
-    .horizontal {
-        grid-column: span 1;
-        grid-row: span 1;
-    }
-
-    .small {
-        grid-column: span 1;
-        grid-row: span 2;
+        grid-column: span 2;
     }
 
     .space {
@@ -166,6 +153,15 @@ t
         background-position: center;
     }
 
+    .bigrennie{
+        padding-top: 10%;
+        font-size: 100px;
+    }
+
+    .homebuttonrennie{
+        font-size: 50pt;
+    }
+
 /* SMALL ELEMENTS are specified in this 2nd secton */
 
     /* TEXT */
@@ -194,7 +190,7 @@ t
         padding-bottom: 10px;
         margin: auto 0;
         color: gray;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     p{
@@ -249,7 +245,7 @@ t
     }
 
     button:hover{
-        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
     }
 
     button:active{
@@ -262,9 +258,9 @@ t
         display: inline;
         text-align: center;
         margin: 10px;
-        background-color: rgba(153, 201, 201, 0.9);
-        color: rgb(252, 246, 240);
-        border-radius: 30px;
+        background-color: rgba(153, 201, 201, 0.6);
+        color: grey;
+        border-radius: 40px;
         font-family: Lora, 'serif';
         width: 200px;
         height: 100px;
@@ -295,38 +291,6 @@ t
         max-width: 300px;
     }
 
-    /* SVG */
-
-    svg{
-        display: block;
-        padding-bottom: 20px;
-        padding-top: 10%;
-        fill:rgb(153, 201, 201);
-        margin: 0 auto;
-    }
-
-    .smallsvg > svg{
-        max-height: 80px;
-        text-align: left;
-    }
-
-   .smallsvg > svg:hover{
-        fill: rgb(153, 201, 201);
-        animation: fadeIn 0.5s;
-        -webkit-animation: fadeIn 0.5s;
-        filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
-    }
-
-    .bigsvg > svg{
-        padding: 5%;
-        z-index: 5;
-        max-width: 400px;
-        text-align: center;
-        margin: auto;
-        margin-top: 5%;
-        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5));
-    }
-
     /* LINKS */
 
         /* UNVISITED link */
@@ -353,10 +317,6 @@ t
         button{
             display: inline;
         }
-
-    .textured{
-        background-image: url(assets/backgroundcanvas.jpg);
-    }
 
 .fade-in {
     animation: fadeIn ease 20s;
