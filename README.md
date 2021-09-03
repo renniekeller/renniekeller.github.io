@@ -1,5 +1,5 @@
-# kellerkaren9.github.io
-Karen Keller's HTML and CSS Portfolio Site
+# renniekeller.github.io
+Rennie Keller's HTML and CSS Portfolio Site
 
   In this portfolio site, I highlighted my skills in three areas: painting, teaching, and design. The four desitnations of this site from the main page are the Gallery, the Teaching section, and an about me page, which links to the resume. 
 
